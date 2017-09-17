@@ -16,19 +16,18 @@ HANDS = {
     "two":  "2",
 }
 
-UTG_POSITION = ['utg', 'early', 'early position', 'under the gun']
-MP_POSITION = ['mp', 'middle', 'middle position']
-CO_POSITION = ['co', 'cut-off', 'cut off']
-BU_POSITION = ['bu', 'button']
-SB_POSITION = ['sb', 'small blind']
-BB_POSITION = ['bb', 'big blind']
+POSITIONS = {
+    'utg': ['utg', 'early', 'early position', 'under the gun'],
+    'mp': ['mp', 'middle', 'middle position'],
+    'co': ['co', 'cut-off', 'cut off'],
+    'bu': ['bu', 'button'],
+    'sb': ['sb', 'small blind'],
+    'bb': ['bb', 'big blind'],
+}
 
-positions = [UTG_POSITION, MP_POSITION, CO_POSITION, BU_POSITION, SB_POSITION,
-             BB_POSITION]
-
-POSITIONS = []
-for pos in positions:
-    POSITIONS.extend(pos)
+ALL_POSITIONS = []
+for position in POSITIONS.values():
+    ALL_POSITIONS.extend(position)
 
 UTG_PUSH_RANGE = {
     14: "77+,ATs+,KTs+,QTs+,JTs,AJo+",

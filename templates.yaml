@@ -1,0 +1,9 @@
+welcome: Welcome to tournament poker tips. I'll help you open push in tournament poker correctly. You'll tell me your cards, stack size and position. I'll tell you to push or not to push your hand. Ready?
+
+next_hand: Tell me your cards, stack size and position.
+
+wrong_input: I don't understand your tournament situation, please, repeat.
+
+push: Yes, you should push this hand, it's plus E V!
+
+dont_push: No, you shouldn't push this hand.

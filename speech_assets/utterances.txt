@@ -1,0 +1,1 @@
+AnswerIntent {firstCard} {secondCard} {stackSize} {position}

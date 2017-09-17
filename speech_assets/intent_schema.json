@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "firstCard",
+          "type": "POKER_CARDS"
+        },
+        {
+          "name": "secondCard",
+          "type": "POKER_CARDS"
+        },
+        {
+          "name": "stackSize",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "position",
+          "type": "POKER_POSITIONS"
+        }
+      ],
+      "intent": "AnswerIntent"
+    }
+  ]
+}

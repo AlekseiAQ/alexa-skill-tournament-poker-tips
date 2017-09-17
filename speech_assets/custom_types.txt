@@ -1,0 +1,32 @@
+# POKER_CARDS
+ace
+king
+queen
+jack
+ten
+nine
+eight
+seven
+six
+five
+four
+three
+two
+
+# POKER_POSITION
+utg
+early
+early position
+under the gun
+mp
+middle
+middle position
+co
+cut-off
+cut off
+bu
+button
+sb
+small blind
+bb
+big blind
